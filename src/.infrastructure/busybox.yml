@@ -6,6 +6,6 @@ metadata:
 spec:
   containers:
   - name: busybox
-    image: ikulyk404/busyboxplus:curl
+    image: ikulyk404/busybox:curl
     command: ["sleep", "3600"]
   restartPolicy: Never
