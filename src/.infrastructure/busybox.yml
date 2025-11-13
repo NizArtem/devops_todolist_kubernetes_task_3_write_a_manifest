@@ -5,7 +5,7 @@ metadata:
   namespace: todoapp
 spec:
   containers:
-  - name: busybox
-    image: ikulyk404/busybox:curl
+  - name: ikulyk404/busyboxplus:curl
+    image: ikulyk404/busyboxplus:curl
     command: ["sleep", "3600"]
   restartPolicy: Never
